@@ -28,28 +28,28 @@
 }
 
 .header1{
-    left: 16em;
-    top: -55%;
+    left: 7em;
+    top: -2%;
     
 }
 
 .header2{
-    left: 21.2em;
-    top: -131%;
+    left: 8.2em;
+    top: -2%;
     
 }
 
 .header3{
-    left: 27em;
-    top: -208%;
+    left: 9em;
+    top: -2%;
     
 
 }
 
 .icon {
     position: relative;
-    left: 80%;
-    top: -190px;
+    left: 40%;
+    top: -5px;
     width: 20px;
     height: 20px;
     
@@ -57,8 +57,8 @@
 
 .github-name {
     position: relative;
-    top: -238px;
-    left: 85.6%;
+    top: -50px;
+    left: 80.8%;
     color: white;
     width: 90px;
 }
@@ -146,15 +146,55 @@ header {
     left: 8%;
     transform: translate(140px,-265px);
     background-color: rgb(132, 95, 173);
-    border-color: rgb(132, 95, 173);;
+    border-color: rgb(132, 95, 173);
 }
 
 .texto-ofertas {
     position: relative;
     top: -300px;
-    color: rgb(97, 45, 145);
+    color: rgb(132, 95, 173);
     left: 100px;
     width: 300px;
+}
+
+.tag-geral-economia { 
+    position: relative;
+    top: -130px;
+    left: 450px;
+    transform: rotate(330deg);
+    z-index: 1;
+    font-size: 20px;
+    background-color: rgb(37, 68, 168);
+    color: white;
+    padding-left: 15px;
+    width: 130px;
+}
+
+.mais-usado { 
+    position: relative;
+    top: -170px;
+    left: 830px;
+    transform: rotate(330deg);
+    z-index: 1;
+    font-size: 20px;
+    background-color: rgb(226, 11, 11);
+    color: white;
+    padding-left: 15px;
+    width: 65px;
+}
+
+.lugares {
+    color: rgb(92, 58, 131);
+}
+
+.preco-card {
+    color: red;
+    font-size: 20px;
+}
+
+.tag {
+    font-size: 15px;
+    opacity: 0.6;
 }
 
 .card {
@@ -166,6 +206,19 @@ header {
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     top: -250px;
     left: 80px;
+}
+
+.sobre {
+    position: relative;
+    top: -120px;
+    left: 130px;
+    height: 500px;
+    width: 1000px;
+    color: rgb(0, 0, 0);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    padding-top: 10px;
 }
 
 footer {
